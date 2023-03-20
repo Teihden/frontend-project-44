@@ -40,15 +40,15 @@ export default () => {
 
     switch (operator) {
       case '+': {
-        correctAnswer = number1 + number2;
+        correctAnswer = +number1 + +number2;
         break;
       }
       case '-': {
-        correctAnswer = number1 - number2;
+        correctAnswer = +number1 - +number2;
         break;
       }
       case '*': {
-        correctAnswer = number1 * number2;
+        correctAnswer = +number1 * +number2;
         break;
       }
       default:
