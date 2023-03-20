@@ -25,6 +25,13 @@ make install
 ```shell
 # Run package
 make brain-games
+
+# Run each game separately
+make brain-even
+make brain-calc
+make brain-gcd
+make brain-progression
+make brain-prime
 ```
 
 ## CLI
