@@ -2,7 +2,7 @@ import startGame from '../index.js';
 
 export default () => {
   const gameTerms = 'Answer "yes" if the number is even, otherwise answer "no".';
-  const getQuestionValue = () => {
+  const getQuestion = () => {
     const number = Math.ceil(Math.random() * 100);
     return number;
   };
@@ -12,5 +12,5 @@ export default () => {
     return correctAnswer;
   };
 
-  startGame(gameTerms, getQuestionValue, getCorrectAnswer);
+  startGame(gameTerms, getQuestion, getCorrectAnswer);
 };
