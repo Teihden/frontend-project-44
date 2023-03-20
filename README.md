@@ -27,3 +27,6 @@ make publish
 # Runs Eslint against source code for quality
 make lint
 ```
+
+## Brain-even (game: "Checking Parity")
+[![asciicast](https://asciinema.org/a/BJ5qi0OoEdbeaEb4IDF11Xc1c.svg)](https://asciinema.org/a/BJ5qi0OoEdbeaEb4IDF11Xc1c)
