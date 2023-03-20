@@ -3,7 +3,11 @@ import startGame from '../index.js';
 export default () => {
   const gameTerms = 'What number is missing in the progression?';
   const getQuestion = () => {
-    const lengthOfProgression = Math.floor(Math.random() * 6) + 5;
+    function getLengthOfProgression(minLength, maxLength) {
+      return Math.floor(Math.random() * (maxLength - minLength + 1)) + minLength;
+    }
+
+    const lengthOfProgression = getLengthOfProgression(5, 10);
     const differenceOfProgression = Math.ceil(Math.random() * 20);
     const firstTermOfProgression = Math.ceil(Math.random() * 20);
     const indexOfMissingTerm = Math.floor(Math.random() * lengthOfProgression);
