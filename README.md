@@ -30,3 +30,6 @@ make lint
 
 ## Brain-even (game: "Checking Parity")
 [![asciicast](https://asciinema.org/a/BJ5qi0OoEdbeaEb4IDF11Xc1c.svg)](https://asciinema.org/a/BJ5qi0OoEdbeaEb4IDF11Xc1c)
+
+## Brain-calc (game: "Calculator")
+[![asciicast](https://asciinema.org/a/dDv8YRtM7hlhP7GLYQATQkxVt.svg)](https://asciinema.org/a/dDv8YRtM7hlhP7GLYQATQkxVt)
