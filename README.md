@@ -29,7 +29,13 @@ make lint
 ```
 
 ## Brain-even (game: "Checking Parity")
+The essence of the game is this: the user is shown a random number. And he has to answer 'yes' if the number is even, or 'no' if it is odd. In case the user gives the wrong answer, the game ends. You must give the correct answer to three questions in a row.
 [![asciicast](https://asciinema.org/a/BJ5qi0OoEdbeaEb4IDF11Xc1c.svg)](https://asciinema.org/a/BJ5qi0OoEdbeaEb4IDF11Xc1c)
 
 ## Brain-calc (game: "Calculator")
+The essence of the game is this: the user is shown a random mathematical expression, such as 35 + 16, which must be calculated and write down the correct answer.
 [![asciicast](https://asciinema.org/a/dDv8YRtM7hlhP7GLYQATQkxVt.svg)](https://asciinema.org/a/dDv8YRtM7hlhP7GLYQATQkxVt)
+
+## Brain-calc (game: "Greatest common divisor (GCD)")
+The essence of the game is as follows: two random numbers is shown, for example, 25 50. You must calculate and enter the greatest common divisor of these numbers.
+[![asciicast](https://asciinema.org/a/zsiBNVAEzRkv6H4Xzguqe1AxJ.svg)](https://asciinema.org/a/zsiBNVAEzRkv6H4Xzguqe1AxJ)
