@@ -9,6 +9,7 @@ export default () => {
 
     return expression;
   };
+
   const getCorrectAnswer = (value) => {
     const array = value.split(' ');
     const minNumber = Math.min(...array);

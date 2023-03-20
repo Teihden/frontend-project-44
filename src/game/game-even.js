@@ -6,6 +6,7 @@ export default () => {
     const number = Math.ceil(Math.random() * 100);
     return number;
   };
+
   const getCorrectAnswer = (value) => {
     const correctAnswer = value % 2 === 0 ? 'yes' : 'no';
     return correctAnswer;

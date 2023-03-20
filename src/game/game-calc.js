@@ -32,6 +32,7 @@ export default () => {
 
     return expression;
   };
+
   const getCorrectAnswer = (value) => {
     const array = value.split(' ');
     const [number1, operator, number2] = array;
