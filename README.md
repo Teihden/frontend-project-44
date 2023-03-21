@@ -2,6 +2,8 @@
 [![Actions Status](https://github.com/Teihden/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Teihden/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/214574a61f2bd80cd8b9/maintainability)](https://codeclimate.com/github/Teihden/frontend-project-44/maintainability)
 
+## About
+
 **"Brain games"** is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again. 
 
 Games:
@@ -11,20 +13,17 @@ Games:
 4. <a href="#brain-progression">"Arithmetic progression"</a>
 5. <a href="#brain-prime">"Is it a prime number?"</a>
 
-<hr>
+## Usage
 
-## Setup
+You should have Node.js installed before proceeding. Only test JS against v19 and on macOS.
 
 ```shell
+# Clone the repo
+git clone https://github.com/Teihden/frontend-project-44
+cd frontend-project-44
+
 # Install dependencies
 make install
-```
-
-## Run
-
-```shell
-# Run package
-make brain-games
 
 # Run each game separately
 make brain-even
@@ -37,6 +36,9 @@ make brain-prime
 ## CLI
 
 ```shell
+# Run package
+make brain-games
+
 # Runs npm-publish with flag (--dry-run)
 make publish
 
